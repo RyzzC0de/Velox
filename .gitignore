@@ -1,0 +1,17 @@
+# Credentials — never commit these
+.env
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Output CSVs
+output/
+
+# PyInstaller
+*.spec
+build/
+dist/
